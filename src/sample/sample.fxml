@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="529.0" prefWidth="765.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+         <children>
+            <Separator layoutX="7.0" layoutY="109.0" prefHeight="6.0" prefWidth="747.0" />
+            <Separator layoutX="14.0" layoutY="484.0" prefHeight="0.0" prefWidth="736.0" />
+            <TextArea fx:id="textInputT" layoutX="14.0" layoutY="115.0" onKeyPressed="#insetText" prefHeight="140.0" prefWidth="736.0" />
+            <Label fx:id="AffichageT" alignment="TOP_LEFT" layoutX="14.0" layoutY="294.0" prefHeight="159.0" prefWidth="736.0" style="-fx-background-color: white;" text="Label" />
+            <Button fx:id="btCopier" layoutX="14.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btCopier_Clicked" prefHeight="67.0" prefWidth="78.0" style="-fx-background-color: #2b9090;" text="Copier">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="18.0" />
+         </font></Button>
+            <Button fx:id="btColler" layoutX="99.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btColler_Clicked" prefHeight="67.0" prefWidth="78.0" style="-fx-background-color: #2b9090;" text="Coller">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="18.0" />
+         </font></Button>
+            <Button fx:id="btcouper" layoutX="190.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btCouper_Clicked" prefHeight="67.0" prefWidth="98.0" style="-fx-background-color: #2b9090;" text="Couper">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="18.0" />
+         </font></Button>
+            <Button fx:id="btSelec" layoutX="305.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btSelectionner_Clicked" prefHeight="67.0" prefWidth="130.0" style="-fx-background-color: #2b9090;" text="Selectionner">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="18.0" />
+         </font></Button>
+            <Button fx:id="btSupp" layoutX="465.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btSupp_Clicked" prefHeight="67.0" prefWidth="130.0" style="-fx-background-color: #2b9090;" text="Supprimer">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="18.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="312.0" layoutY="491.0" prefHeight="23.0" prefWidth="436.0" style="-fx-background-color: gray;" text="nombre de charactere">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="264.0" layoutY="257.0" prefHeight="17.0" prefWidth="233.0" style="-fx-background-color: gray;" text="AffichageT">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btDellAll" layoutX="608.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btDellAll_Clicked" prefHeight="67.0" prefWidth="130.0" style="-fx-background-color: #2b9090;" text="Dell All">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="18.0" />
+         </font>
+      </Button>
+         </children>
+</AnchorPane>
